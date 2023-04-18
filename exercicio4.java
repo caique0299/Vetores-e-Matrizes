@@ -10,7 +10,7 @@ public class exercicio4 {
         double[][] notas = new double[10][4];
         double[] medias = new double[10];
         
-        // Lendo as notas dos alunos
+        
         for (int i = 0; i < 10; i++) {
             System.out.println("Digite as notas do aluno " + (i+1) + ":");
             for (int j = 0; j < 4; j++) {
@@ -18,7 +18,7 @@ public class exercicio4 {
             }
         }
         
-        // Calculando as médias dos alunos
+        
         for (int i = 0; i < 10; i++) {
             double soma = 0;
             for (int j = 0; j < 4; j++) {
@@ -27,7 +27,7 @@ public class exercicio4 {
             medias[i] = soma/4;
         }
         
-        // Exibindo as médias dos alunos
+        
         System.out.println("\nMédias dos alunos:");
         for (int i = 0; i < 10; i++) {
             System.out.printf("Aluno %d: %.1f\n", (i+1), medias[i]);
